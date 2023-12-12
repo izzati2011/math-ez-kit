@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TajukLayout">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFAFA"
+        tools:context=".BmLayout">
+
+        <Button
+            android:id="@+id/btnVideo"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:onClick="Tajuk5pdf"
+            android:text="5.0 Vektor dan skalar"
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSample"
+            app:layout_constraintVertical_bias="0.032"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp" />
+
+        <Button
+            android:id="@+id/btnSample"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="53dp"
+            android:onClick="Tajuk4pdf"
+            android:text="4.0 Matrik"
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnTopic"
+            app:layout_constraintVertical_bias="0.066"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp" />
+
+        <Button
+            android:id="@+id/btnActivities"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeWidth="3dp"
+            app:strokeColor="@color/black"
+            android:onClick="Tajuk3pdf"
+            android:layout_width="380dp"
+            android:textColor="@color/black"
+            android:layout_height="62dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="4dp"
+            android:text="3.0 Nombor Kompleks"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnSample"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnTopic"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btnTopic"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeWidth="3dp"
+            app:strokeColor="@color/black"
+            android:textColor="@color/black"
+            android:onClick="Tajuk2pdf"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="8dp"
+            android:text="2.0 Trigonometri"
+            app:iconPadding="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnCouse" />
+
+        <Button
+            android:id="@+id/btnCouse"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="544dp"
+            android:onClick="tajuk1pdf"
+            android:text="1.0 Asas Algebra"
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

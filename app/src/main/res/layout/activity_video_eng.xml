@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_videoeng"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoEng">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="6BLtK5Zno_s" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="DBM10013 ENGINEERING MATHEMATICS 1: SIMPLIFY BASIC ALGEBRA (PART 1)" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:autoPlay="false"
+                android:layout_marginTop="16dp"
+                app:showYouTubeButton="false"
+                app:videoId="wLKjtfqGxdI" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="DBM10013 ENGINEERING MATHEMATICS 1: SIMPLIFY BASIC ALGEBRA ( PART 2)" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:autoPlay="false"
+                android:layout_marginTop="16dp"
+                app:showYouTubeButton="false"
+                app:videoId="eQLCSftj9kY" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="DBM 1013 : Engineering Mathematics 1" />
+
+
+        </LinearLayout>
+
+    </ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mathezkittrial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MathEzKitTrial">
+        <activity
+            android:name=".Games"
+            android:parentActivityName=".MenuBi" />
+        <activity
+            android:name=".AktivitiBm"
+            android:parentActivityName=".MenuBm" />
+        <activity
+            android:name=".MenuBi"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".EnglishChapter"
+            android:parentActivityName=".MenuBi" />
+        <activity
+            android:name=".KandunganTajuk"
+            android:parentActivityName=".MenuBm" />
+        <activity
+            android:name=".VideoEng"
+            android:parentActivityName=".MenuBi" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".PDFList"
+            android:parentActivityName=".SoalanFinal" />
+        <activity
+            android:name=".FinalPaper"
+            android:parentActivityName=".MenuBi" />
+        <activity
+            android:name=".Topic5"
+            android:parentActivityName=".EnglishChapter" />
+        <activity
+            android:name=".Topic4"
+            android:parentActivityName=".EnglishChapter" />
+        <activity
+            android:name=".Topic3"
+            android:parentActivityName=".EnglishChapter" />
+        <activity
+            android:name=".Topic2"
+            android:parentActivityName=".EnglishChapter" />
+        <activity
+            android:name=".Topic1"
+            android:parentActivityName=".EnglishChapter" />
+        <activity
+            android:name=".Topics"
+            android:parentActivityName=".MenuBi" />
+        <activity
+            android:name=".CourseOutline"
+            android:parentActivityName=".MenuBi" />
+        <activity
+            android:name=".Video"
+            android:parentActivityName=".MenuBm" />
+        <activity
+            android:name=".PDFOpener"
+            android:parentActivityName=".SoalanFinal" />
+        <activity
+            android:name=".SoalanFinal"
+            android:parentActivityName=".MenuBm" />
+        <activity
+            android:name=".Chapter5"
+            android:parentActivityName=".KandunganTajuk" />
+        <activity
+            android:name=".Chapter4"
+            android:parentActivityName=".KandunganTajuk" />
+        <activity
+            android:name=".MenuBm"
+            android:parentActivityName=".HomeActivity"/>
+        <activity
+            android:name=".Chapter3"
+            android:parentActivityName=".KandunganTajuk" />
+        <activity
+            android:name=".Chapter2"
+            android:parentActivityName=".KandunganTajuk" />
+        <activity
+            android:name=".Tajuk1"
+            android:parentActivityName=".KandunganTajuk" />
+        <activity
+            android:name=".TajukLayout"
+            android:parentActivityName=".MenuBm" />
+        <activity
+            android:name=".RangkaKursus"
+            android:parentActivityName=".MenuBm" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".BiLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

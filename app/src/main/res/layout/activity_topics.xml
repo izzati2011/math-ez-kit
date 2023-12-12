@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Topics">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFAFA"
+        tools:context=".BiLayout">
+
+        <Button
+            android:id="@+id/btnVideo"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:onClick="Chapter5pdf"
+            android:text="CHAPTER 5 : VECTOR AND SCALAR "
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.683"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btnSample"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:onClick="Chapter4pdf"
+            android:text="CHAPTER 4 : MATRICES"
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.572"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btnActivities"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:onClick="Chapter3pdf"
+            android:text="CHAAPTER 3 : NUMBER COMPLEXS"
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.464"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btnTopic"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:onClick="Chapter2pdf"
+            android:text="CHAPTER 2 : TRIGONOMETRY"
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.355"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btnCouse"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="380dp"
+            android:layout_height="62dp"
+            android:onClick="Chapter1pdf"
+            android:text="Chapter1  : ALGEBRA"
+            android:textColor="@color/black"
+            app:iconPadding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.243"
+            app:strokeColor="@color/black"
+            app:strokeWidth="3dp"
+            tools:ignore="OnClick" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
